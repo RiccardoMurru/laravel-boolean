@@ -1,0 +1,20 @@
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_logo {
+        width: 40%;
+    }
+    &_links {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    a {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: .8rem 1rem;
+        color: $blue;
+    }
+}

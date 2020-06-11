@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navbar_logo {
+  width: 40%;
+}
+
+.header-navbar_links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header-navbar a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.8rem 1rem;
+  color: #1c3c59;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 1rem 5rem;
+}
+
+.jumbotron_img {
+  width: 40%;
+}
+
+footer {
+  background: #1c3c59;
+}
+
+.footer-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-navbar_logo {
+  width: 30%;
+}
+
+.footer-navbar_links {
+  text-align: right;
+  list-style: none;
+}
+
+.footer-navbar a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+

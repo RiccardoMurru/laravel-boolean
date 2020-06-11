@@ -1,0 +1,24 @@
+footer {
+    background: $blue;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    &_logo {
+        width: 30%;
+    }
+    &_links {
+        text-align: right;
+        list-style: none;
+    }
+    a {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: .8rem 1rem;
+        color: $white;
+    }
+}
