@@ -58,6 +58,51 @@ h6 {
   width: 40%;
 }
 
+h2 {
+  text-align: center;
+  color: #1c3c59;
+}
+
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.students .student {
+  flex-basis: 45%;
+  color: #1c3c59;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #e2e2e2;
+}
+
+.students .student h3 {
+  margin-bottom: 1rem;
+}
+
+.students .student img {
+  width: 25%;
+  float: left;
+  margin-right: 1rem;
+}
+
+.students .student_info::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.students .student p {
+  margin-bottom: 1rem;
+}
+
+.students .student p:last-of-type {
+  margin-top: 5rem;
+  text-align: justify;
+}
+
 footer {
   background: #1c3c59;
 }

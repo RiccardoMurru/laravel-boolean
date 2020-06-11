@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,4 @@ Route::get('/faq', 'StaticPageController@faq')->name('staticPage.faq');
 
 // students
 Route::get('/students', 'StudentController@index')->name('student.index');
+Route::get('/show/{id}', 'StudentController@show')->name('student.show');
