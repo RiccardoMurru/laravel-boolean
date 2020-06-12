@@ -1,7 +1,7 @@
 @include('shared.head')
 @include('shared.header')
 
-<main class="container">
+<main class="container main">
     @yield('content')
 </main>
 

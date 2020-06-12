@@ -11,6 +11,8 @@
             <li>Siamo certi del tuo successo, altrimenti ti rimborsiamo</li>
         </ul>
     </div>
-    <img src="https://www.boolean.careers/images/homepage/pc-black-gif.gif" alt="Corso web" class="jumbotron_img">
+    <div class="jumbotron_img">
+        <img src="https://www.boolean.careers/images/homepage/pc-black-gif.gif" alt="Corso web" class="jumbotron_img">
+    </div>
 </div>
 @endsection

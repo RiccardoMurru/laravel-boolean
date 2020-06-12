@@ -8,6 +8,19 @@
 
 body {
   font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body .container.main {
+  flex-grow: 1;
 }
 
 h1,
@@ -17,11 +30,6 @@ h4,
 h5,
 h6 {
   margin-bottom: 2rem;
-}
-
-.container {
-  width: 1140px;
-  margin: 0 auto;
 }
 
 .header-navbar {
@@ -55,7 +63,8 @@ h6 {
 }
 
 .jumbotron_img {
-  width: 40%;
+  text-align: center;
+  width: 70%;
 }
 
 h2 {
