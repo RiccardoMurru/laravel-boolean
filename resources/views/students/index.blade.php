@@ -30,4 +30,7 @@
     </a>
     @endforeach
 </div>
+
+@include('template.handlebars.student')
+
 @endsection
